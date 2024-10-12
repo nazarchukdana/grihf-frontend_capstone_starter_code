@@ -11,16 +11,19 @@
     <div class="container" > <!-- Main container with margin-top -->
         <div class="sign-up-text">
             <h1 class="sign-up-heading"><b>Sign Up</b></h1>
-            <div class="already-a-member-parent">
-                <div class="already-a-member" style="color: #4c4c4c;">Already a member?</div>
-                <a href="../Login/Login.html" style="color: #4b04e2; text-decoration: none;"><b>Login</b></a>
+            <div class="already-a-member">
+                <div style="color: #4c4c4c;">Already a member?</div>
+                <div class="login" >
+                    <a href="../Login/Login.html" style="color: #4b04e2;text-decoration: none; font-family: 'Inter', sans-serif"><b>Login</b></a>
+                </div>
             </div>
         </div>
             <div class="signup-form"> <!-- Form for user sign-up -->
-                <form> <!-- Start of the form -->
+                <form>
+                    <div class="form-inputs"> <!-- Start of the form -->
                     <div class="form-group"> <!-- Form group for role selection -->
                         <label for="role">Role</label> <!-- Label for role dropdown -->
-                        <select name="role" id="role" required class="form-control"> <!-- Dropdown select for roles -->
+                        <select name="role" id="role" required class="form-control" > <!-- Dropdown select for roles -->
                             <option value="" disabled selected>Select your role</option> <!-- Placeholder option -->
                             <option value="admin">Doctor</option>
                             <option value="editor">Patient</option>
@@ -42,8 +45,9 @@
                         <label for="password">Password</label> <!-- Label for password input field -->
                         <input name="password" id="password" required class="form-control" placeholder="Enter your password" aria-describedby="helpId" /> <!-- Password input field -->
                     </div>
+                </div>
                     <div class="btn-group"> <!-- Button group for form submission and reset -->
-                        <button type="submit" class="btn btn-primary">Submit</button> <!-- Submit button -->
+                        <button type="submit" class="btn btn-success">Submit</button> <!-- Submit button -->
                         <button type="reset" class="btn btn-danger">Reset</button> <!-- Reset button -->
                     </div>
                 </form> <!-- End of the form -->
