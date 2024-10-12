@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    position: relative;
+    height: 49.625rem; /* 794px / 16 = 49.625rem */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5625rem 0.625rem 1.875rem; /* 25px / 16 = 1.5625rem, 10px / 16 = 0.625rem, 30px / 16 = 1.875rem */
+    color: #000;
+    font-family: Inter;
+    border-radius: 3.125rem; /* 50px / 16 = 3.125rem */
+    background-color: #fff;
+    border: 0.125rem solid #4b04e2; /* 2px / 16 = 0.125rem */
+}
+h1{
+    font-size: 3rem;
+}
