@@ -109,3 +109,10 @@ padding: 0 30px; /* Padding for button group */
     border: 2px solid #F20000;
     color: #fff;
 }
+.password-visibility {
+    position: relative; /* Set the position relative to its normal position */
+    top: -39px; /* Move the element 39 pixels up */
+    left: 92%; /* Move the element 92% to the right */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 17px; /* Set font size */
+}
